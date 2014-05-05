@@ -498,7 +498,7 @@
       s = Math.min(w, h),
       k = s * STROKE;
 
-    fogbank(ctx, t, w * 0.5, h * 0.32, s * 0.75, k, color);
+    fogbank(ctx, t, w * 0.5, h * 0.32, s * 0.75, k, color["cloud"]);
 
     t /= 5000;
 
@@ -510,7 +510,7 @@
       e = Math.floor(n - k * 0.5) + 0.5,
       f = Math.floor(n - k * 2.5) + 0.5;
 
-    ctx.strokeStyle = color;
+    ctx.strokeStyle = color["fog"];
     ctx.lineWidth = k;
     ctx.lineCap = "round";
     ctx.lineJoin = "round";
