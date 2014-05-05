@@ -5,7 +5,7 @@ Colored Skycons is a set of ten animated weather glyphs, procedurally generated 
 JavaScript using the HTML5 canvas tag based on [Skycons](https://github.com/darkskyapp/skycons).
 They're easy to use, and pretty lightweight, so they shouldn't rain on your parade:
 
-You can see in action [here](http://kriyeng.github.io/colored-skycons/)
+You can see them in action [here](http://aethursurfer.github.io/colored-skycons/)
 
     <canvas id="icon1" width="128" height="128"></canvas>
     <canvas id="icon2" width="128" height="128"></canvas>
